@@ -210,10 +210,10 @@ nav {
 }
 
 #testimonials {
-    background-image: linear-gradient(to bottom right, rgb(186, 125, 19), rgb(200, 187, 128));
+    /*background-image: linear-gradient(to bottom right, rgb(186, 125, 19), rgb(200, 187, 128));*/
+    border: 4mm ridge rgba(0, 0, 0, .97);
     height: 500px;
     color: white;
-    text-align: center;
 }
 
 #title {
