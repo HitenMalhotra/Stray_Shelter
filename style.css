@@ -211,7 +211,9 @@ nav {
 
 #testimonials {
     /*background-image: linear-gradient(to bottom right, rgb(186, 125, 19), rgb(200, 187, 128));*/
-    border: 4mm ridge rgba(0, 0, 0, .97);
+/*     border: 4mm ridge rgba(0, 0, 0, .97); */
+    border: 4.3mm double #000000;
+    margin: 5%;
     height: 500px;
     color: black;
 }
