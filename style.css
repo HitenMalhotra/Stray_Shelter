@@ -43,6 +43,10 @@ nav {
     padding: 7% 15%;
 }
 
+.cow{
+    height:350px;
+    float: right;
+}
 .download {
     margin: 5% 3% 5% 0;
 }
