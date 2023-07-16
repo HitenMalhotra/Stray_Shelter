@@ -211,8 +211,8 @@ nav {
 
 #testimonials {
     background: -webkit-linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
+                     rgba(20,20,20, .85), 
+                     rgba(20,20,20, .85)),
                      url(images/download.jpg);
 /*     border: 4mm ridge rgba(0, 0, 0, .97); */
     border: 4.3mm double #000000;
