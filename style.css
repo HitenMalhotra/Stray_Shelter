@@ -210,7 +210,7 @@ nav {
 }
 
 #testimonials {
-    background: linear-gradient(
+    background: -webkit-linear-gradient(
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
                      url(images/download.jpg);
