@@ -61,6 +61,10 @@ nav {
     color: #8f8f8f;
 }
 
+.h-50{
+    padding: 3% 3%;
+}
+
 .icon {
    color: #ef8172;
    margin: 16% auto 7%; 
@@ -163,19 +167,25 @@ nav {
 
 /***    TAG SELECTOR    ***/
 
-#cta {
+#cta{
+    background-color: #1b0105;
+    padding: 4% 7% 4% 5%;
+
+}
+
+/* #cta {
   background-color: #ff4c68;
   color: #fff;
   padding: 7% 15%;
   text-align: center;
-}
+} */
 
-.cta-heading {
+/* .cta-heading {
   font-family: "Montserrat"
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.5;
-}
+} */
 
 #features {
     background-color: white;
@@ -196,11 +206,12 @@ nav {
     padding-bottom: 7%;
 }
 
-#pricing {
-    padding: 10%;
+#principle {
+
+    padding-left: 10% ;
 }
 
-#pricing-title {
+#principle-title {
     font-size: 2.5rem;
     font-weight: 900;
 }
@@ -214,10 +225,18 @@ nav {
 
 
 #testimonials {
-  padding: 7% 15%;
+  padding: 2% 0%;
   text-align: center;
-  background-color: #ef8172;
+   background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('images/download.jpg'); 
+  
   color: #fff;
+  border: 4mm double black;
+  margin: 7%;
 }
 
 .testimonial-image {
