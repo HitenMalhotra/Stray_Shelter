@@ -3,6 +3,9 @@
 .white_text{
     color: white;
 }
+#Story{
+   text-align:centre;
+}
 #Mainhead{
     background-color: azure;
 
