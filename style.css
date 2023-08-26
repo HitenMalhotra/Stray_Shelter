@@ -3,9 +3,7 @@
 .white_text{
     color: white;
 }
-#Story{
-   text-align:centre;
-}
+
 #Mainhead{
     background-color: azure;
 
@@ -269,6 +267,7 @@ margin-right: -230px;
 
 #story{
     height:200px;
+    text-align:centre;
 }
 
 #testimonials {
