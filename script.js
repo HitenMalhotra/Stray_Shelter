@@ -44,3 +44,45 @@ let story1 = $("#Story1");
 // animate({height: '300px'}, slow);
 
 setInterval(function(){story1.fadeToggle()}, 500);
+let Mem=$("#Mem");
+let stats=$("#Stat");
+let start=0;
+let end=421;
+
+let counts = setInterval(updated1, 1);
+let start2=0;
+let end2=392;        
+let count2 = setInterval(updated2, 1);
+        
+function updated1() {
+           // let count = document.getElementById("counter");
+            Mem.text(start);
+            if (start === end) {
+                clearInterval(counts);
+            }
+            start++;
+           
+}
+
+       
+function updated2() {
+    // let count = document.getElementById("counter");
+     stats.text(start2);  
+     if (start2 === end2) {
+         clearInterval(count2);
+     }
+     start2++;
+}
+
+let fl=$(".flash");
+setInterval(function(){
+    fl.fadeToggle();
+}, 500);
+
+
+
+
+
+
+
+
