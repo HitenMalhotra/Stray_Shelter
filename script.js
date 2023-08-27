@@ -78,7 +78,7 @@ function updated2() {
      start2++;
     
 }
-}, 2000);
+}, 2100);
 //A refers to About Page
 setInterval(function(){story1.fadeToggle()}, 500);
 
