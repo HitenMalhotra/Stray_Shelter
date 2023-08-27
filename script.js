@@ -38,7 +38,7 @@ cd3.hover(function(){
 
 //blog/stories
 
-let story1 = $("#Story1");
+//let story1 = $("#Story1");
 // story1.html("Story");
 // console.log(story1);
 // animate({height: '300px'}, slow);
@@ -76,7 +76,7 @@ function updated2() {
 }
 
 //A refers to About Page
-etInterval(function(){story1.fadeToggle()}, 500);
+//setInterval(function(){story1.fadeToggle()}, 500);
 
 
 let fl=$(".flash");
