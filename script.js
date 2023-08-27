@@ -7,6 +7,8 @@ signForm.hover(function(){
     setInterval(function(){
         jtc.fadeToggle();
     }, 700);
+
+    
 });
 
 let cd1 = $("#card1");
@@ -43,7 +45,9 @@ cd3.hover(function(){
 // console.log(story1);
 // animate({height: '300px'}, slow);
 
-setInterval(function(){story1.fadeToggle()}, 500);
+//setInterval(function(){story1.fadeToggle()}, 500);
+
+setTimeout(function(){
 let Mem=$("#Mem");
 let stats=$("#Stat");
 let start=0;
@@ -74,9 +78,9 @@ function updated2() {
      start2++;
     
 }
-
+}, 1500);
 //A refers to About Page
-//setInterval(function(){story1.fadeToggle()}, 500);
+setInterval(function(){story1.fadeToggle()}, 500);
 
 
 let fl=$(".flash");
