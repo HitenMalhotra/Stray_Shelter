@@ -67,17 +67,24 @@ function updated1() {
        
 function updated2() {
     // let count = document.getElementById("counter");
-     stats.text(start2);  
+    stats.text(start2);
      if (start2 === end2) {
          clearInterval(count2);
      }
      start2++;
+    
 }
+
+//A refers to About Page
+etInterval(function(){story1.fadeToggle()}, 500);
+
 
 let fl=$(".flash");
 setInterval(function(){
     fl.fadeToggle();
 }, 500);
+
+
 
 
 
