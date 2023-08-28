@@ -124,6 +124,9 @@ setInterval(function(){
 
 let ss=$("#storysubmit");
 let mssg=$("#mssg1");
+function Storysubmit(){
+    mssg1.innertext="Thank you for sharing your story";
+}
 ss.click(function(){
     mssg1.text="Thank you for sharing your story";
     
