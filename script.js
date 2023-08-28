@@ -40,7 +40,7 @@ function updated2() {
      start2++;
     
 }
-}, 2100);
+}, 100);
 
     
 });
