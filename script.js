@@ -88,6 +88,19 @@ setInterval(function(){
     fl.fadeToggle();
 }, 500);
 
+let ss=$("#storysubmit");
+let mssg=$("#mssg1");
+ss.click(function(){
+    mssg1.text="Thank you for sharing your story";
+    
+});
+
+function storysuccess() { 
+    if(document.getElementById('checkBox').checked)
+        document.getElementById('texto').innerHTML = "Thank you";
+    else
+        document.getElementById('texto').innerHTML = "Good Bye";
+}
 
 
 
